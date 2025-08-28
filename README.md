@@ -2,7 +2,7 @@
 This project focuses on dimension compliance inspection of disk-shaped objects using computer vision. The system automatically measures the inner and outer diameters of disks and compares them against defined standards.
 To ensure accurate and scale-consistent measurements, ArUco markers are used as reference objects in images.
 
-Key Features
+🔍 Key Features
 
 Automated Diameter Measurement
 
@@ -20,7 +20,7 @@ Dimension Compliance Check
 
 Measured values can be compared with standard tolerances (e.g., ASME, ISO).
 
-Tech Stack
+🛠️ Tech Stack
 
 Python
 
@@ -30,7 +30,7 @@ YOLO / Object Detection (for disk and region localization)
 
 NumPy & Pandas (for calculations & reporting)
 
-Dataset & Annotation
+📂 Dataset & Annotation
 
 Images of disk samples were collected under controlled conditions.
 
@@ -42,7 +42,7 @@ Outer boundary (disk edge)
 
 Inner boundary (hole/center cut)
 
-Measurement Workflow
+📏 Measurement Workflow
 
 Detect ArUco marker → calculate pixel-to-mm ratio.
 
@@ -52,7 +52,7 @@ Measure inner & outer diameters in millimeters.
 
 Compare results against standard specifications.
 
-Example Output
+📊 Example Output
 
 Input: Disk image with ArUco marker
 
@@ -64,7 +64,7 @@ Inner Diameter: YY mm
 
 Compliance: ✅ Pass / ❌ Fail
 
-Future Improvements
+🚀 Future Improvements
 
 Integrate more flange types and disk variants.
 
@@ -72,7 +72,7 @@ Build a real-time inspection system with video input.
 
 Develop a web dashboard for compliance reporting.
 
-Contribution
+🤝 Contribution
 
 Contributions are welcome!
 
@@ -80,8 +80,8 @@ Fork the repo
 
 Create a feature branch
 
-Submit a pull request 
+Submit a pull request 🚀
 
-License
+📜 License
 
 This project is licensed under the MIT License.
